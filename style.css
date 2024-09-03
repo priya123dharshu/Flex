@@ -1,0 +1,96 @@
+.card-header img{
+    width: 100%;
+    padding: 0%;
+
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+}
+.card-body{
+    padding: 20px;
+
+}
+
+.tag-purple{
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(27, 76, 212);
+    border: 1px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.tag-pink{
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(209, 26, 169);
+    border: 1px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card{
+    width: 25%;
+    margin: 40px;
+    border: 0px solid;
+    box-shadow: 1px 3px 9px;
+    border-radius: 8px;
+    gap: 10px;  
+}
+button{
+    width: 97%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.user img{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 10px;
+   
+
+}
+.user{
+    display: flex;
+
+}
+.user-info{
+    padding-left: 10px;
+    padding-top:50px ;
+    margin: 0;
+    padding: 10px;
+}
+h5{
+    margin: 0;
+}
+.social-icons{
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: black; 
+}
+@media (max-width:1023px){
+    .card{
+        width:37%;
+    }
+}
+@media (max-width:767px){
+    .card{
+        width:100%;
+    }
+}
+
+
+
